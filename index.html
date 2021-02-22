@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Discussion App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+
+            <div id="header">Discussion Portal</div>
+
+            <div id="container">
+
+                <div id="question_box">
+
+                    <div id="options_header">
+
+                        <button id="new_ques_btn">New Question form</button>
+
+                        <input type="text" placeholder="search questions.." id="search_box" onkeyup="handleKey()">
+                        
+                    </div><br/>
+
+                    <div id="query_box">
+
+                        <div id="error">No match found</div>
+                        
+                    </div>
+
+                </div>
+
+                <div id="query_resolve_box">
+
+                    <div id="show1">
+
+                        <h1 id="welcome_line">Welcome to Discussion Portal !</h1>
+
+                        <h3 id="adjust">Enter a subject and question to get started</h3>
+
+                        <input type="text" placeholder="Subject" id="subject_input"/><br/><br/>
+
+                        <textarea rows="6" cols="70" placeholder="Question" id="ques_input"></textarea><br/><br/>
+                        
+                        <button id="submit_btn">Submit</button>
+
+                    </div>
+
+                    <div id="show2">
+
+                        <h2 id="question_heading">Question</h2>
+                        <div id="display_ques"></div><br/>
+                        <button id="resolve_btn">Resolve</button>
+
+                        <h2 id="response_heading">Responses</h2>
+                        <div id="display_response"></div>
+
+                        <h2 id="add_response_line">Add Response</h2>
+                        <input type="text" placeholder="Enter Name" id="name_input"/><br/><br/>
+                        <textarea rows="6" cols="65" placeholder="Enter Comment" id="comment_input"></textarea><br/><br/>
+
+                        <button id="submit_response">Submit</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
