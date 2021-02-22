@@ -1,2 +1,2 @@
-# DiscussionApp
+# DiscussionPortal
  Discussion app
